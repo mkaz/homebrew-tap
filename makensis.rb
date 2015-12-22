@@ -2,7 +2,7 @@ class Makensis < Formula
   desc "System to create Windows installers"
   homepage "http://nsis.sourceforge.net/"
   url "https://downloads.sourceforge.net/project/nsis/NSIS%202/2.49/nsis-2.49-src.tar.bz2"
-  sha1 "11f43e1f8a2be04eceb44eaf81bb7d79cc5c6a13"
+  sha256 "b9777b376e4fc7aae05e89aa6c52a1137fe443952931e15cf0382b3a5d198512"
 
   depends_on "scons" => :build
 
@@ -13,7 +13,7 @@ class Makensis < Formula
 
   resource "nsis" do
     url "https://downloads.sourceforge.net/project/nsis/NSIS%202/2.49/nsis-2.49.zip"
-    sha1 "d4ee9385c299c1412a3282e72627cc7fc7c0d2c4"
+    sha256 "b7416935d0db6c27b9dfe33e5110456569bbf65ca33cc105fb46ad36226c2eb9"
   end
 
   def install
